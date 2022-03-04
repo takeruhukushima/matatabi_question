@@ -3,7 +3,7 @@ name: matatabi_question_math
 # 実行タイミング
 on:
  schedule:
-   - cron: '*/1 * * * *'
+   - cron: '*/5 * * * *'
 
 # 実行内容
 jobs:
