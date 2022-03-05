@@ -15,7 +15,7 @@ auth.set_access_token(AT, AS)
 api = tweepy.API(auth)
 
 # 1ツイートずつループ
-for status in api.search(q='またたび質問箱数学', count=50):
+for status in api.search(q='#またたび質問箱数学', count=50):
     tweet_id = status.id
     # 例外処理をする
     try:
