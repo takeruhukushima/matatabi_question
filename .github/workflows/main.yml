@@ -8,9 +8,8 @@ on:
 # 実行内容
 jobs:
   build:
-    # Ubuntsuで実行
-    runs-on: ubuntu-latest
-    
+    # windows-latestで実行
+    runs-on: windows-latest    
     # 実行する処理＆コマンド
     steps:
       - uses: actions/checkout@v2
