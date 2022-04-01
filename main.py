@@ -1,4 +1,5 @@
 import tweepy
+import os
 
 # # 先ほど取得した各種キーを代入する
 # CK = "L4YkZDGRcD7mKgv5vfRrjohYO"
@@ -6,6 +7,10 @@ import tweepy
 # AT = "1468856376126763009-Zm7yHauW6WoxjDEpFu0pya8Pyk0CUZ"
 # AS = "PPtdqnPJEdp1AOAiFZEoxONtVQjnSIn7uPq3vxQE37TSj"
 
+CK=os.environ.get("CK")
+CK=os.environ.get("CS")
+AT=os.environ.get("AT")
+AS=os.environ.get("AS")
 
 
 # Twitterオブジェクトの生成
