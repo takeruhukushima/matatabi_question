@@ -8,7 +8,7 @@ import os
 # AS = "PPtdqnPJEdp1AOAiFZEoxONtVQjnSIn7uPq3vxQE37TSj"
 
 CK=os.environ.get("CK")
-CK=os.environ.get("CS")
+CS=os.environ.get("CS")
 AT=os.environ.get("AT")
 AS=os.environ.get("AS")
 
