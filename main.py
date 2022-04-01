@@ -1,11 +1,6 @@
 import tweepy
 import os
 
-# # 先ほど取得した各種キーを代入する
-# CK = "L4YkZDGRcD7mKgv5vfRrjohYO"
-# CS = "buQLqU0o2aG5RwhDjtHJwJBtr4Jq5X7ky4IelMgWWnVFKfJ4HL"
-# AT = "1468856376126763009-Zm7yHauW6WoxjDEpFu0pya8Pyk0CUZ"
-# AS = "PPtdqnPJEdp1AOAiFZEoxONtVQjnSIn7uPq3vxQE37TSj"
 
 CK=os.environ.get("CK")
 CS=os.environ.get("CS")
