@@ -24,6 +24,6 @@ jobs:
           CS: ${{ secrets.CS }}
           CK: ${{ secrets.CK }}
           AS: ${{ secrets.AS }}
-          AK: ${{ secrets.AK }}
+          AT: ${{ secrets.AT }}
         run: |
           python main.py
